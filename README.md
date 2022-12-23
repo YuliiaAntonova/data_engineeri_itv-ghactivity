@@ -12,3 +12,8 @@ We will eventually partition the data by year, month and day of month while writ
 
 Create a Python program by name process.py. We will create a function by name df_transform. It partitions the Dataframe using specified field.
 Call the program from app.py. For now review schema and data.
+Productionize Code
+
+Let us make necessary changes to the code so that we can run on a multinode cluster.
+Update util.py to use multi node cluster.
+Here are the commands to download the files.
